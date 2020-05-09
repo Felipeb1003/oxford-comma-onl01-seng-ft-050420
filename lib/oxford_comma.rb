@@ -5,11 +5,12 @@ def oxford_comma(array)
   new_string = array.join(" and ")
   new_string2 = array.join( " , ")
   last_item = array.last
-  binding.pry
+  
     if size_of_array <= 2 
     new_string
     else
+    last_item
     new_string2
-    
+    binding.pry
   end
 end
