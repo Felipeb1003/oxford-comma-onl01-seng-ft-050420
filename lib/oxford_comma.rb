@@ -13,6 +13,6 @@ def oxford_comma(array)
       first_array[-1] = last_item 
       new_string2 
     
-    binding.pry
+    
   end
 end
