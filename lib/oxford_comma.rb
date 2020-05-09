@@ -11,7 +11,7 @@ def oxford_comma(array)
     else
        last_item.insert(0, "and ")
       new_string2 
-     
+     array
       
      end
 end
