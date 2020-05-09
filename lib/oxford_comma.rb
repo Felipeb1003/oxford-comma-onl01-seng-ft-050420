@@ -9,8 +9,7 @@ def oxford_comma(array)
     if size_of_array <= 2 
     new_string
     else
-    last_item
-    new_string2
+    new_string2 << last_item
     binding.pry
   end
 end
