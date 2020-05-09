@@ -9,7 +9,6 @@ def oxford_comma(array)
     if size_of_array <= 2 
     new_string
     else
-      last_items  =  " and #{last_item}"   
     new_string2
     
   end
