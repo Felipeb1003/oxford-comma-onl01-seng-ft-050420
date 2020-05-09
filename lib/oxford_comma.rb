@@ -9,9 +9,10 @@ def oxford_comma(array)
     if size_of_array <= 2 
     new_string
     else
+       last_item.insert(0, "and ")
       new_string2 
-      last_item.insert(0, "and ")
-      new_string2
+     
+      
      end
 end
  
